@@ -1,0 +1,14 @@
+image:
+  repository: "changeme"
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+
+resources: {}
+
+replicaCount: 1
+
+
